@@ -4,10 +4,10 @@ __Introduction__
 Feature engineering is a critical step in the process of developing machine learning models. It involves selecting, transforming, extracting, combining, and manipulating raw data to create meaningful features that can improve the performance of your model. In this Jupyter Notebook project, we will explore various numerical transformations as a part of feature engineering. These transformations are essential for preprocessing and preparing the data for machine learning algorithms. [Let's get started](Feature_Engineering.ipynb)
 
 __Table of Contents__
-* Why Feature Engineering
-* Numerical Transformations
+* Why-Feature-Engineering
+* Numerical-Transformations
   * Centering
-  * Standard Scaler
+  * Standard-Scaler
   * Min and Max Scaler
   * Binning
   * Log Transformations
@@ -16,32 +16,38 @@ Dependencies
 How to Run
 
 
-Why Feature Engineering <a name="why-feature-engineering"></a>
+Why Feature Engineering <a name="Why-Feature-Engineering"></a>
+
 Feature engineering plays a crucial role in machine learning because the quality of the features used directly impacts the performance of your model. By crafting meaningful features from raw data, you can improve the model's ability to understand patterns and make accurate predictions. In this project, we will focus on numerical transformations, a fundamental aspect of feature engineering.
 
 
-Numerical Transformations <a name="numerical-transformations"></a>
+Numerical Transformations <a name="Numerical-Transformations"></a>
+
 In this project, we will explore the following numerical transformations:
 
-Centering <a name="centering"></a>
+Centering <a name="Centering"></a>
+
 Centering involves subtracting the mean value of a numerical feature from each data point in that feature. This transformation shifts the distribution of the data, making the mean of the feature zero.
 
-Standard Scaler <a name="standard-scaler"></a>
+Standard Scaler <a name="Standard-Scaler"></a>
+
 The Standard Scaler scales numerical features to have a mean of 0 and a standard deviation of 1. This transformation ensures that all features have the same scale, which is crucial for many machine learning algorithms.
 
-Min and Max Scaler <a name="min-and-max-scaler"></a>
+Min and Max Scaler <a name="Min-And-Max-Scaler"></a>
+
 Min and Max Scaler (also known as Min-Max Scaling) scales numerical features to a specified range, typically [0, 1]. This transformation preserves the relationships between data points while ensuring they fall within a defined range.
 
-Binning <a name="binning"></a>
+Binning <a name="Binning"></a>
+
 Binning involves grouping numerical data into discrete bins or intervals. It can be useful for converting continuous data into categorical data, which might be beneficial for certain machine learning algorithms.
 
-Log Transformations <a name="log-transformations"></a>
+Log Transformations <a name="Log-Transformations"></a>
 Log transformations are used to reduce the impact of outliers and make the data more symmetrically distributed. This is particularly useful when dealing with data that follows a skewed distribution.
 
-Usage <a name="usage"></a>
+Usage <a name="Usage"></a>
 You can use this Jupyter Notebook as a reference to understand and implement numerical transformations in your own feature engineering projects. The code examples and explanations provided will help you get started with these essential techniques.
 
-Dependencies <a name="dependencies"></a>
+Dependencies <a name="Dependencies"></a>
 This project relies on the following Python libraries:
 
 NumPy
